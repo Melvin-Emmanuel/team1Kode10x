@@ -14,3 +14,10 @@ body{
     font-size: 50px;
     font-weight: 500;
 }
+
+.hero-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
