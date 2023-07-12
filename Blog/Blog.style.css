@@ -8,3 +8,22 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.Blog{
+display: flex;
+text-align: center;
+text-decoration: aqua;
+}
+
+.Blog h1{
+font-size: 30px;
+text-decoration: underline;
+color: white;
+}
+
+.Blog p{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
