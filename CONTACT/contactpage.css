@@ -18,7 +18,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.navigation{
+nav{
     display: flex;
     justify-content: space-around;
     margin-top: 12px;
