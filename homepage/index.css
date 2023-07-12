@@ -10,6 +10,27 @@ body{
     height: 100px;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: blue;
+}
+.search{
+    height: 50px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+
+}
+.search input{
+    height: 100%;
+    width: 80%;
+ background-color: #fff;
+
+}
+.search svg{
+    margin-left: 10px;
 }
