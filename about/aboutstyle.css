@@ -52,3 +52,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.about-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
