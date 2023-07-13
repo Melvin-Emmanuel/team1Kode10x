@@ -122,4 +122,9 @@ height: 1000px;
 width: 1500px;
 }
 
-
+.pex img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+overflow: hidden;
+}
