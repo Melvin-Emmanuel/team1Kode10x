@@ -29,7 +29,7 @@ align-items: center;
 .Blog{
 display: flex;
 text-align: center;
-text-decoration: aqua;
+justify-content: center;
 }
 
 .Blog h1{
@@ -55,8 +55,8 @@ margin: 50px;
 
 .imageholder img{
 margin-top: 3opx;
-height: 80px;
-width: 80px;
+height: 100%;
+width: 100%;
 object-fit: contain;
 overflow: hidden;
 }
@@ -66,6 +66,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+}
+
+.howitlooklike img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+overflow: hidden;
 }
 
 .how we do{
