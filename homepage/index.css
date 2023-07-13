@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   min-height: 90vh;
-  background-color: cyan;
-  font-family: 'Poppins', sans-serif;
+
+  font-family: "Poppins", sans-serif;
 }
 .header {
   display: flex;
@@ -11,7 +11,9 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-between;
- 
+    background-color: cyan;
+    position: sticky;
+    top: 0;
 }
 .search {
   height: 50px;
@@ -23,13 +25,13 @@ body {
   justify-content: space-between;
   overflow: hidden;
   align-items: center;
-   border: 2px solid rgb(134, 134, 134);
+  border: 2px solid rgb(134, 134, 134);
 }
 .search input {
   height: 100%;
   width: 80%;
   background-color: #fff;
- border: transparent;
+  border: transparent;
   outline: none;
   font-size: 16px;
 }
@@ -53,13 +55,25 @@ body {
   width: 100%;
   object-fit: contain;
 }
-.navigation{
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    font-weight: 550;
-
+.navigation {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 550;
 }
-.navigation nav{
-    cursor: pointer;
+.navigation nav {
+  cursor: pointer;
+}
+.hero-1{
+    height: 700px;
+    width: 100%;
+    background-color: pink;
+}
+.hero1Left{
+    width: 50%;
+}
+.heroButton{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
 }
