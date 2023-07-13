@@ -91,6 +91,13 @@ overflow: hidden;
 object-fit: contain;
 }
 
+.info h1{
+display: flex;
+justify-content: flex-start;
+margin-left: 80px;
+align-items: center;
+}
+
 .image2 img{
 display: flex;
 overflow: hidden;
