@@ -96,6 +96,17 @@ display: flex;
 justify-content: flex-start;
 margin-left: 80px;
 align-items: center;
+font-size: 50px;
+background-color: cadetblue;
+color: white;
+}
+
+.info p{
+display: flex;
+justify-content: flex-start;
+margin-left: 60px;
+font-size: 20px;
+font-family: fantasy;
 }
 
 .image2 img{
