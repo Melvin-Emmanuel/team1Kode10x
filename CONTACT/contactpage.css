@@ -6,43 +6,12 @@ body{
     background-color: #EBEBEB;
 }
 
-header{
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #F8636B;
-}
 
-.navigations{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 12px;
-    margin-left: 30px;
-    color: blue;
-    cursor: pointer;
-}
-
-button{
-    background-color: #0d6efd;
-    height: 50px;
-    width: 150px;
-    border: 1px solid;
-    border-radius: 18px;
-    color: white;
-    font-size: 15px;
-}
-button:hover{
-    cursor: pointer;
-}
 
 .welcome{
     text-align: center;
     text-decoration: darkgrey;
+}
+.message{
+    text-align: center;
 }
