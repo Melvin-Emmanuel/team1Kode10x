@@ -3,6 +3,7 @@ body {
   padding: 0;
   min-height: 90vh;
   background-color: cyan;
+  font-family: 'Poppins', sans-serif;
 }
 .header {
   display: flex;
@@ -41,13 +42,24 @@ body {
   cursor: pointer;
 }
 .headerLogo {
-  height: 100px;
-  width: 100px;
-  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  /* background-color: #fff; */
   margin-left: 100px;
+  margin-top: 15px;
 }
 .headerLogo img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+.navigation{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 550;
+
+}
+.navigation nav{
+    cursor: pointer;
 }
