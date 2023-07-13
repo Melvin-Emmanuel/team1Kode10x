@@ -59,7 +59,7 @@ margin: 50px;
 margin-top: 3opx;
 height: 80px;
 width: 80px;
-object-fit: cover;
+object-fit: contain;
 overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ margin-left: 200px;
 .image2 img{
 display: flex;
 overflow: hidden;
-object-fit: cover;
+object-fit: contain;
 height: 100px;
 width: 100px;
 }
