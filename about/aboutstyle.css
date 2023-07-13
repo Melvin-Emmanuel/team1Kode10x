@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .hero{
@@ -15,9 +16,77 @@ body{
     font-weight: 500;
 }
 
+.hero-intro p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
 .hero-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.hero-2-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-2-intro h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-2-intro p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-intro h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.about-intro p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.abot-int{
+    display:flex ;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.abot-int1{
+    margin: 5px;
+}
+
+.abot-int1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.abot-int1 p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: start;
 }
