@@ -58,3 +58,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.about-intro h1{
+    font-size: 50px;
+    font-weight: 500;
+}
