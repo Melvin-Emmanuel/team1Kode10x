@@ -5,6 +5,144 @@ padding: 0;
 
 .myblog{
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
+}
+
+.but{
+display: flex;
+justify-content: center;
+}
+
+.Blogbut{
+height: 60px;
+width: 90px;
+color: white;
+background-color: rgb(128, 128, 238);
+}
+
+.Blog{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.Blog h1{
+font-size: 60px;
+font-weight: 500;
+}
+
+.Blog p{
+text-align: center;
+font-size: 20px;
+font-weight: 200;
+}
+
+.imageholder{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 30px;
+margin-left: 150px;
+}
+
+.image{
+height: 500px;
+width: 500px;
+}
+
+.image img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+overflow: hidden;
+}
+
+
+.how we do{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+}
+
+.info h1{
+font-size: 60px;
+font-weight: 500;
+}
+
+.info p{
+text-align: center;
+font-size: 20px;
+font-weight: 200;
+}
+
+.ima{
+height: 1000px;
+width: 1500px;
+}
+
+.ima img{
+height: 100%;
+width: 100%;
+overflow: hidden;
+object-fit: contain;
+}
+
+.connect{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.connect2 p{
+text-align: center;
+font-size: 20px;
+font-weight: 200;
+}
+
+.connect2 h1{
+font-size: 60px;
+font-weight: 500;
+}
+
+.pex{
+height: 1000px;
+width: 1500px;
+}
+
+.pex img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+overflow: hidden;
+}
+
+.list{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.bed h1{
+font-size: 60px;
+font-weight: 500;
+}
+
+.bed p{
+font-size: 20px;
+font-weight: 200;
+text-align: center;
 }

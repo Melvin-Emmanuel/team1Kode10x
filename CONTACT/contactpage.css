@@ -3,4 +3,18 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #EBEBEB;
+}
+
+
+
+.welcome{
+    text-align: center;
+    text-decoration: darkgrey;
+}
+.message{
+    text-align: center;
+}
+form{
+    text-align: center;
 }
