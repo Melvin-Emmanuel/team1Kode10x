@@ -71,6 +71,15 @@ body {
 }
 .hero1Left{
     width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-around;
+}
+.hero1Left h1{
+  font-size: 60px;
+  text-align: center;
 }
 .heroButton{
     display: flex;
