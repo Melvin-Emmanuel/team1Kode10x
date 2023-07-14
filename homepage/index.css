@@ -122,3 +122,11 @@ margin-left: 50px;
   background-color: cyan;
   cursor: pointer;
 }
+.heroButton .button2{
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color:#D87C49;
+  border-radius: 10px;
+  cursor: pointer;
+}
