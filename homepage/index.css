@@ -78,8 +78,16 @@ body {
     justify-content: space-around;
 }
 .hero1Left h1{
-  font-size: 60px;
+  font-size: 50px;
+  font-weight: 600;
   text-align: center;
+}
+.hero1Left p{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0,0, 0.5);
+  text-align: center;
+  
 }
 .heroButton{
     display: flex;
