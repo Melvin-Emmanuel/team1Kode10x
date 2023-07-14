@@ -77,3 +77,12 @@ body {
     width: 500px;
     justify-content: space-between;
 }
+.hero1Right{
+height: 500px;
+width: 50%;
+margin-left: 50px;
+}
+.hero1Right img{
+  height: 100%;
+  width: 100%;
+}
