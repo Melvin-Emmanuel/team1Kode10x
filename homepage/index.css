@@ -74,6 +74,7 @@ body {
     height: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
    
     justify-content: space-around;
 }
@@ -108,4 +109,16 @@ margin-left: 50px;
 .hero-1{
   display: flex;
 
+}
+/* .heroButton {
+  height: 200px;
+} */
+.heroButton .button1{
+  height: 50px;
+  width: 150px;
+  outline: none;
+  border: transparent;
+  border-radius: 10px;
+  background-color: cyan;
+  cursor: pointer;
 }
