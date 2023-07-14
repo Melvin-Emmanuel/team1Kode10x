@@ -85,4 +85,10 @@ margin-left: 50px;
 .hero1Right img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.hero-1{
+  display: flex;
+
 }
